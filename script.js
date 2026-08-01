@@ -26,7 +26,7 @@ class AIPribadi {
         this.toggleVisibility = document.getElementById('toggleVisibility');
 
         // State
-        this.apiKey = localStorage.getItem('AQ.Ab8RN6JKqICdZE0wUj5745jAZCsyc90QA6lzuUkAnqUzPELsyg') || '';
+        this.apiKey = localStorage.getItem('ai_api_key') || '';
         this.customPrompt = localStorage.getItem('ai_custom_prompt') || 'Kamu adalah asisten AI yang ramah, profesional, dan membantu. Berikan jawaban yang jelas dan informatif.';
         this.model = localStorage.getItem('ai_model') || 'gemini-1.5-flash';
         this.temperature = parseFloat(localStorage.getItem('ai_temperature')) || 0.7;
